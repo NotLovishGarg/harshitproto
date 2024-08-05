@@ -1,0 +1,10 @@
+.nav-link {
+    margin-right: 15px;
+    text-decoration: none; /* Optional: Remove underline */
+  }
+  
+
+.nav-link:hover{
+    font-weight: bolder;
+    font-size: larger;
+}
