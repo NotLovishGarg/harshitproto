@@ -8,3 +8,8 @@
     font-weight: bolder;
     font-size: larger;
 }
+
+.btn-ss:hover{
+    font-size: larger;
+    font-weight: bolder;
+}
