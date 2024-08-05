@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abstract</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <nav id="nav-example" class="nav navbar-light fixed-top" style="background-color: aliceblue; display: flex; justify-content: space-between;">
+        <div class="nav-title">
+            <a class="navbar-brand" href="index.html" style="padding: 5%;"><img src="assets/thapar.gif" alt="" style="height: 5rem;"></a>
+        </div>
+        <div class="nav-content" style="margin-right: 2rem;">
+            <div class="col">
+            <a class="nav-link text-dark" href="#div1">Home</a>
+            </div>
+            <div class="col">
+            <a class="nav-link text-dark" href="#div3">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <div
+            data-bs-spy="scroll"
+            data-bs-target="#nav-example"
+            data-bs-smooth-scroll="true"
+            tabindex="0"
+        >
+            <div id="div1" class="bg-primary" style="height: 100vh">
+                card
+            </div>
+            <div id="div2" class="bg-success" style="height: 100vh">
+                div2
+            </div>
+            <div id="div3" class="bg-light" style="height: 100vh">
+                div3
+            </div>
+        </div>
+    </div>
+    
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/js/bootstrap.js">
+</body>
+</html>
